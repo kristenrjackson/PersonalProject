@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #414141;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414141;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: strong;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    padding: 10px 0;
+}
+
+/* #projects-grid {
+    display: grid;
+    grid: 60px / auto-flow 80px;
+}
+
+#projects-grid > div {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+} */
+
+article {
+    display: grid;
+    grid-template-rows: 450px;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div {
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+}
+
+.menu-container {
+    color: #FFF;
+    background-color: rgb(5, 148, 158);             /* #5995DA, 64, 94, 82 */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    font-family: "Arial";
+    justify-content: space-around;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    color: #414141;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.my-pic {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.footer {
+    clear: both;
+    height: 50px;
+    color: #FFF;
+    background-color:  rgb(5, 148, 158);
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.menu a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact-information p {
+    font-weight: 600;
+}
+
+.projects-grid div a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.projects-grid div h4 {
+    color: blue;
+}
