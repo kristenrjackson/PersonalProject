@@ -41,7 +41,7 @@ article {
     display: grid;
     grid-template-rows: 450px;
     grid-template-columns: 400px 400px 400px;
-    grid-gap: 3px;
+    grid-gap: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -101,12 +101,12 @@ article > div {
     margin: 0 auto;
 }
 
-a:link {
+.menu a:link {
     color: white;
     text-decoration: none;
 }
 
-a:visited {
+.menu a:visited {
     color: white;
 }
 
@@ -120,10 +120,10 @@ a:visited {
 }
 
 .projects-grid div a {
-    color: blue;
+    color: rgb(5, 148, 158);
     text-decoration: underline;
 }
 
 .projects-grid div h4 {
-    color: blue;
+    color: rgb(5, 148, 158);
 }
