@@ -9,6 +9,21 @@
     justify-content: center;
 }
 
+.nav {
+    background-color:  rgb(5, 148, 158);
+    color: white;
+    font-family: "Arial";
+    margin: 0px 325px 40px 325px;
+    padding: 10px 0;
+    max-width: 950px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
 .my-pic {
     display: flex;
     justify-content: center;

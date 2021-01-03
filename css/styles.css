@@ -36,7 +36,7 @@ article > div {
 
 .menu-container {
     color: #FFF;
-    background-color: rgb(5, 148, 158);             /* #5995DA, 64, 94, 82 */
+    background-color: rgb(5, 148, 158);
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -58,37 +58,18 @@ article > div {
     padding: 20px;
 }
 
-.nav {
-    background-color:  rgb(5, 148, 158);
-    color: white;
-    font-family: "Arial";
-    margin: 0px 325px 40px 325px;
-    padding: 10px 0;
-    max-width: 950px;
-}
-
-.footer-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
 .footer-nav-links a:link {
     color: white;
-    text-decoration: none;
 }
 
 .footer-nav-links a:visited {
     color: white;
-    text-decoration: none;
 }
 
 .footer-nav-links-list-item {
     border-radius: 8px;
     border-style: solid;
     border-width: 2px;
-    list-style-type: none;
-    margin: 1rem;
-    padding: .5rem;
     color: #FFF;
 }
 
