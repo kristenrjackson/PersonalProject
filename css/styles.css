@@ -34,6 +34,22 @@ article > div {
     justify-content: center;
 }
 
+.left-side {
+    color: white;
+}
+
+.left-side > h1 {
+    color: white;
+}
+
+.left-side > h3 {
+    color: white;
+}
+
+.about {
+    color: white;
+}
+
 .menu-container {
     color: #FFF;
     background-color: rgb(5, 148, 158);

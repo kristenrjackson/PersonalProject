@@ -2,33 +2,49 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Kristen's Portfolio Project</title>
+        <title>Kristen Jackson's Portfolio</title>
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/layout.css" />
     </head>
     <a name="top"></a>
     <body>
-        <header>
-            <h1>Kristen's Portfolio Project</h1>
-            <h3>by Kristen Jackson</h3>
-        </header>
-        <nav class="menu-container">
-            <div class="menu">
-                <div class="about"><a href="#about-me-link">About Me</a></div>
-                <div class="projects"><a href="#projects-link">Projects</a></div>
+        <nav>
+            <div class="nav-item">
+                <a href="#about">About</a>
+            </div>
+            <div class="nav-item">
+                <a href="#skills">Skills</a>
+            </div>
+            <div class="nav-item">
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="nav-item">
+                <a href="#resume">Resume</a>
+            </div>
+            <div class="nav-item">
+                <a href="#contact">Contact</a>
             </div>
         </nav>
-        <section>
-            <h2><a name="about-me-link">About Me</a></h2>
+        <div class="container">
+            <aside class="left-side">
+                <h1>Kristen Jackson</h1>
+                <h3>Software Developer</h3>
+                <h2><a name="about-me-link">About</a></h2>
+                    <section class="about" id="about">
+                        <span class="section-title-span">About</span>
+                        <p>An innovative, detail-oriented professional who advocates for, promotes, 
+                            and facilitates positive user experiences. Exceptional problem solver 
+                            and naturally inquisitive troubleshooter. Collaborative team member 
+                            who implements solutions involving diverse teams.</p>
+                    </section>
+            </aside>
+            <main class="right-side">
+            
             <div class="my-pic">
                 <img src="images/KristenJ-closeup3.png" alt="Kristen's photo"/>
             </div>
-            <div class="about-me-container">
-                <div class="about-me">
-                    <h3>Summary</h3>
-                    <p>Detail-oriented professional who advocates for, promotes, and facilitates positive user experiences. 
-                    Recognized as an exceptional problem solver and naturally inquisitive technical troubleshooter. Outstanding 
-                    team member with demonstrated success collaborating and implementing solutions involving diverse teams.</p>
+        <section>
+            <div class="skills">
                     <h3>Skills</h3>
                     <p>Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • 
                         Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • 
@@ -44,8 +60,9 @@
                 </div>
             </div>
         </section>
+        
         <section>
-            <h2><a name="projects-link">Projects</a></h2>
+            <h2><a name="projects">Projects</a></h2>
             <article class="projects-grid">
                 <div><img src="images/VirtualPet.png" alt="Virtual Pet project" />
                     <a href="https://github.com/kristenrjackson/virtual-pet-kristenrjackson"><h4>Virtual Pet project</h4></a>
@@ -70,6 +87,7 @@
         </nav>
         <div class = footer>
             <p>&copy 2020-2021 Kristen Jackson. All rights reserved.</p>
+        </main>
         </div>
     </body>
 </html>

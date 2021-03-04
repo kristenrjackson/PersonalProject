@@ -18,6 +18,29 @@
     max-width: 950px;
 }
 
+.left-side {
+    background-image: url(/images/lightbulb1-90.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 90vh;
+    margin-left: 3vw;
+}
+
+.right-side {
+    width: 60%;
+    height: 90vh;
+    overflow-y: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.right-side p {
+    width: 70%;
+    text-align: center;
+    position: relative;
+}
+
 .footer-nav {
     display: flex;
     justify-content: space-around;
