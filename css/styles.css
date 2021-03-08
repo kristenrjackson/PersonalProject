@@ -12,12 +12,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    border: 1px solid red;
 }
 
 p {
     text-align: left;
     font-family: "Arial", sans-serif;
     padding: 10px 0;
+    border: 1px solid red;
 }
 
 article {
@@ -26,12 +28,14 @@ article {
     grid-gap: 10px;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
 }
 
 article > div {
     width: 300px;
     height: 450px;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .left-side {
@@ -56,6 +60,7 @@ article > div {
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .menu {
@@ -63,6 +68,7 @@ article > div {
     display: flex;
     font-family: "Arial";
     justify-content: space-around;
+    border: 1px solid red;
 }
 
 .about-me {
@@ -72,6 +78,12 @@ article > div {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
+    border: 1px solid red;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-nav-links a:link {
