@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #414141;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414141;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: strong;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+p {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+article > div {
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.left-side {
+    color: white;
+    background-image: url(/images/lightbulb1-90.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 90vh;
+    margin-left: 3vw;
+    border: 1px solid red;
+}
+
+.left-side > h1 {
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.left-side > h2 {
+    color: white;
+    margin: 30px 0 0 0;
+}
+
+.right-side {
+    width: 60%;
+    height: 90vh;
+    overflow-y: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    border: 1px solid red;
+}
+
+.right-side p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border: 1px solid red;
+}
+
+.about > h2 {
+    color: white;
+    margin: 90% 0 0 0;
+}
+
+.about-description > p {
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(251, 235, 0);
+    margin: 0 0 0 0px;
+}
+
+.about-me-link {
+    color: white;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border: 1px solid red;
+}
+
+.my-pic {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+        width: 100px;
+        height: 100px;
+    padding: 10px 0 0 0;
+
+    border: 1px solid red;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.footer-nav-links a:link {
+    color: white;
+}
+
+.footer-nav-links a:visited {
+    color: white;
+}
+
+.footer-nav-links-list-item {
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFF;
+}
+
+.footer {
+    clear: both;
+    height: 50px;
+    color: #FFF;
+    background-color:  rgb(5, 148, 158);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    color: rgb(0,128,191);
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.menu {
+    float: right;
+    width: 80%;
+    display: flex;
+    font-family: "Arial";
+    justify-content:space-around;
+    border: 1px solid red;
+}
+
+.menu a:link {
+    color: rgb(0,128,191);
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: rgb(0,128,191);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(251, 235, 0);
+    text-shadow: 1px 1px 1px rgb(251, 235, 0);
+    text-decoration: none;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-thumbnail {
+    border: 1px solid black;
+}
+
+.contact-information p {
+    font-weight: 600;
+}
+
+.contact-information a:link {
+    color:rgb(5, 148, 158);
+}
+
+.projects-grid div a {
+    color: rgb(5, 148, 158);
+    text-decoration: underline;
+}
+
+.projects-grid div h4 {
+    color: rgb(5, 148, 158);
+}
+
+.projects-grid p {
+    text-align: center;
+}
+
+a:link {
+    color: rgb(5, 148, 158);
+}
